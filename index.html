@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParBa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">ParBa</h2>
+            <ul class="menu">
+                <li><a href="#acceuil">Acceuil</a></li>
+                <li><a href="#apropos">Apropos</a></li>
+                <li><a href="#partenaires">Partenaires</a></li>
+                <li><a href="#temoignages">Temoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="connexion"><a href="#">Connexion</a>
+                <a href="#">Inscription</a>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="acceuil" id="acceuil">
+        <div class="acceuil-texte">
+            <p>votre assistante!</p>
+            <h1>ParBa</h1>
+            <p>La gestion des remplacements est devenue
+                un enjeu structurant pour les établissements
+                sanitaires et médico-sociaux.
+            </p>
+        </div>
+        <div class="acceuil-image">
+            <img src="image/Tech Life Remote Life.png" alt="">
+        </div>
+        <div class="boutons">
+            <a href="#contact" class="btn">Commencer</a>
+            <a href="#partenaires" class="btn-secondaire">
+             Mon réseau <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+    
+   <section class="presentation" id="apropos">
+        <h2>ParBa</h2>
+    
+            <p class="sous-titre">
+                La gestion des remplacements est devenue un enjeu structurant
+                pour les établissements sanitaires et médico-sociaux.
+            </p>
+    
+        <p>
+           Face à l'absentéisme et au l'accroissement temporaire
+            d'activité imprévisible dans le temps, la gestion des
+            remplacements est devenue un enjeu structurant pour
+            les établissements sanitaires et médico-sociaux.
+
+            Les outils actuels sont chronophages et peu efficients.
+            ParBa propose une solution digitale simple et efficace,
+            adaptée aux besoins de toutes les structures.
+
+            ParBa a été pensé pour révolutionner la gestion des
+            ressources humaines dans la santé. Cette solution
+            de pilotage des absences et des remplacements de
+            personnel 100% en ligne permet aux établissements
+            sanitaires et médico-sociaux de gérer leur personnel. 
+        </p>
+   </section> 
+
+   <section class="partenaires" id="partenaires">
+    <div class="trait"></div>
+    <h2>Nos partenaires</h2>
+    <div class="carrousel">
+        <button class="fleche" onclick="defiler('partenaires-liste', -1)">&#10094;</button>
+        <div class="partenaires-images defilement" id="partenaires-liste">
+            <img src="image/BOOSTER LOGO-2 (1).png" alt="">
+            <img src="image/BOOSTER LOGO.png" alt="">
+            <img src="https://www.defarsci.fr/assets/img/logo0.png" alt="">
+        </div>
+           
+
+        <button class="fleche" onclick="defiler('partenaires-liste', 1)">&#10095;</button>
+
+    </div>
+
+   </section>
+
+   <section class="temoignages" id="temoignages">
+    <h2>ils nous font confiance</h2>
+    <div class="carrousel">
+    <button class="fleche" onclick="defiler('temoignages-liste', -1)">&#10094;</button>
+
+    <div class="cartes defilement" id="temoignages-liste">
+        <div class="carte">
+            <img src="image/Ellipse 1.png" alt="adams">
+            <h3>Adams Smith</h3>
+            <p>General manager</p>
+            <p> Deserunt impedit saepe nobis porro, pariatur modi minima libero optio quisquam cupiditate aut doloremqu temporibus nostrum minima odio blanditiis iusto,<br> dolore corporis possimus ea autem dolor. Quae perf</p>
+
+        </div>
+        <div class="carte">
+            <img src="image/Ellipse 2.png" alt="juliette">
+            <h2>Juliette Faye</h2>
+            <p>Self care</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi mollitia non recusandae ad enim. <br> Culpa, asperiores ut animi ipsum architecto eligendi magni quidem tempore porro quasi, inventore optio! Ad, vero?</p>
+        </div>
+    </div>
+
+    <button class="fleche" onclick="defiler('temoignages-liste', 1)">&#10095;</button>
+</div>
+    <div class="cartes">
+        
+    </div>
+   </section>
+
+   <section class="contact" id="contact">
+    <div class="trait"></div>
+    <h2>Contact</h2>
+    <form action="">
+        <label for="">Nom complet</label>
+        <input type="text" name="nom">
+        <label for="">Structure</label>
+        <input type="text" name="Structure">
+        <label for="">Adresse email</label>
+        <input type="email" name="email">
+        <label for="">Message</label>
+        <textarea name="message" id=""></textarea>
+    </form>
+   </section>
+   
+   <footer>
+        <div class="footer-contenu">
+            <div>
+                <h3>ParBa</h3>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Une solution digitale pour les
+                    établissements sanitaires.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat id, quisquam iusto minus facilis nisi possimus perspiciatis tempora animi hic
+                     voluptatem, eius laboriosam rem eos error voluptates. Quo, aspernatur veritatis dolor 
+                    
+                </p>
+            </div>
+
+            <div>
+                <h3>À Propos</h3>
+                <p>
+                    Découvrez notre plateforme et
+                    nos solutions de gestion des
+                    remplacements.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Nobis explicabo quidem eaque provident
+                     reprehenderit quod esse similique autem quasi aliquam? 
+                    Aliquid earum sunt assumenda quaerat similique autem? Enim, nesciunt a?
+                </p>
+            </div>
+
+            <div class="reseaux-sociaux">
+                <a href="facebook" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="WhatsApp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" title="lindkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <p class="copyright">
+            COPYRIGHT 2021 © PARBA SCI - Tous droits réservés
+        </p>
+        
+</body>
+</html>

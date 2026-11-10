@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #125f75;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px #aaa;
+}
+.logo{
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: #12647a;
+    padding: 12px;
+    border-radius: 4px;
+}
+.menu a {
+color: white;
+text-decoration: none;
+margin: 10px;
+font-size: 13px;
+}
+.connexion a {
+    text-decoration: none;
+    color: #12647a;
+    margin: 8px;
+    font-size: 14px;
+}
+.acceuil{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 60px 10%;
+}
+.acceuil-texte{
+    width: 300px;
+}
+.acceuil-texte p{
+    line-height: 1.6;
+    font-size: 16px;
+}
+.acceuil-texte h1{
+    font-size: 55px;
+    color: #12647a;
+}
+.acceuil-image img{
+    width: 320px;
+}
+.boutons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.btn, .btn-secondaire {
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn{
+    background-color: #12647a;
+    color: white;
+}
+.btn-secondaire {
+    background-color: #12647a;
+    color: white;
+}
+.presentation{
+    background-color: #12647a;
+    color: white;
+    padding: 80px 14%;
+    line-height: 1.6;
+}
+.presentation h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.presentation p{
+    font-size: 15px;
+}
+.partenaires, .temoignages, .contact {
+    text-align: center;
+    padding: 50px 10%;
+}
+.trait{
+    width: 150px;
+    height: 5px;
+    background-color: #12647a;
+    margin: 0 auto 25px;
+    border-radius: 5px;
+}
+section h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.partenaires-images{
+    background-color: #a9e8fa;
+    padding: 60px 20px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.partenaires-images img{
+    width: 120px;
+}
+.cartes{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.carte{
+    border: 1px solid #12647a;
+    border-radius: 4px;
+    width: 230px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.carte img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #12647a;
+    object-fit: cover;
+    margin-top: -55px;
+}
+.carte h3 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+.carte p{
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 8px;
+    text-align: left ;
+}
+.contact form{
+    background-color: #12647a;
+    padding: 40px 15%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.contact label{
+    color: white;
+    margin-bottom: 10px;
+}
+.contact input{
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+.contact textarea {
+    height: 120px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+    footer{
+        background-color: black;
+        color: white;
+        padding: 40px 7%;
+
+    }
+    .footer-contenu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    }
+    .footer-contenu div{
+        width: 30%;
+    }
+    .footer-contenu p{
+        font-size: 13px;
+        line-height: 1.6;
+        margin-top: 20px;
+    }
+    .copyright{
+        text-align: center;
+        font-size: 11px ;
+        margin-top: 50px;
+    }
+    @media screen and (max-width: 640px) 
+    {
+     .navbar{
+        flex-direction: column;
+        gap: 15px;
+     }
+     .acceuil{
+        text-align: center;
+        padding: 40px 20px;
+     }
+     .acceuil-image img{
+        width: 100%;
+     }
+     .menu{
+       flex-wrap: wrap; 
+       justify-content: center;
+     } 
+     .boutons{
+        gap: 15px;
+        flex-wrap: wrap;
+     } 
+     .presentation{
+        padding: 50px 25px;
+     } 
+     .partenaires-images{
+        flex-wrap: wrap;
+        gap: 30px ;
+     }
+     .cartes{
+        gap: 50px;
+     }
+     .contact form{
+        padding: 30px 20px;
+     }
+     .footer-contenu{
+        flex-direction: column;
+     }
+     .footer-contenu div{
+    width: 100%;
+     }
+    }
+        .reseaux-sociaux{
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .reseaux-sociaux a{
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .reseaux-sociaux a:hover{
+            color: #55c5df;
+            transform: translateY(-5px);
+        }
+        /* CARROUSEL */
+.carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.defilement {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.defilement::-webkit-scrollbar {
+    display: none;
+}
+
+.defilement > * {
+    flex-shrink: 0;
+}
+
+.fleche {
+    background-color: #12647a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fleche:hover {
+    background-color: #55c5df;
+}
+/* CARROUSEL */
+.carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.defilement {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.defilement::-webkit-scrollbar {
+    display: none;
+}
+
+.defilement > * {
+    flex-shrink: 0;
+}
+
+.fleche {
+    background-color: #12647a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fleche:hover {
+    background-color: #55c5df;
+}
+.btn-secondaire i {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
