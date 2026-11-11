@@ -177,6 +177,21 @@ section h2 {
     border-radius: 3px;
     padding: 10px;
 }
+.contact button{
+    background: white;
+    color: #12647a;
+    width: 120px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3;
+}
+.contact button:hover{
+    background-color: #55c5df;
+    color: white;
+}
     footer{
         background-color: black;
         color: white;
