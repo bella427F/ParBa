@@ -356,4 +356,8 @@ section h2 {
     margin-left: 10px;
     font-size: 13px;
 }
-
+.btn-commencer{
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+}
